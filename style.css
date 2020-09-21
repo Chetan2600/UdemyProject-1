@@ -1,0 +1,166 @@
+body{
+    margin: 0 auto;
+    background-color:white;
+}
+.container{
+
+    width: 1000px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+
+}
+.logo{
+float: left;
+padding: 15px;
+}
+.search{
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+.Main-menu{
+    background-color: teal;
+}
+.Main-menu > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.Main-menu > ul > li{
+    display: inline-block;
+}
+.Main-menu > ul > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+}
+.Main-menu > ul > li > a:hover{
+    background-color: rgba(117, 16, 21, 0.904);
+}
+/* drop */
+.drop{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    
+}
+.drop > li > a {
+    color: rgb(194, 119, 119);
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+    background-color: black;
+}
+.drop > li > a:hover{
+    background-color:orange;
+}
+.Main-menu > ul > li:hover .drop{
+    display: block;
+}
+.banner{
+    width: 1000px;
+    height: 1000px;
+    overflow: hidden;
+
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+/* content holder */
+.content-holder{
+    background-color: turquoise;
+}
+.content{
+    width: 700px;
+    height: auto;
+    padding: 25px;
+    background-color: white;
+    float: left;
+}
+.content{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+.content{
+    font-family: sans-serif;
+    font-size: small;
+}
+.sidebar{
+    float: left;
+    padding: 25px;
+
+}
+.sidebar h3{
+    font-family:sans-serif ;
+    background-color: white;
+
+}
+.sidebar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.sidebar ul > li > a{
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-family: serif;
+    font-style: italic;
+    text-decoration: none;
+}
+.main-footer{
+    background-color: black;
+    color: white;
+    width: 950px;
+    height: auto;
+    padding: 25px;
+}
+.footer-box{
+    width: 237.5px;
+    height: auto;
+    float: left;
+}
+.footer-box > ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.footer-box > ul > li > a{
+    display: block;
+    font-size: small;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+
+}
+.footer-box  address a{
+    color: teal;
+    font-size: small;
+}
+address p {
+    font-size: small;
+}
+.copy{
+    font-family: sans-serif;
+    padding: 25px;
+    text-align: center;
+    background-color: rgb(56, 162, 170);
+    color: darkgray;
+}
+.copy p{
+    margin: 0%;
+}
+/* page */
+.content img{
+    max-width: 100%;
+}
